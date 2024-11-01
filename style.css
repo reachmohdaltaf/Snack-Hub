@@ -139,6 +139,17 @@ main {
 
 
 @media (max-width: 468px) {
+      main{
+        padding: 0px;
+        height: 93vh;
+      }
+     nav{
+        padding: 5px;
+     }
+
+    .logo{
+        font-size: 30px;
+    }
 
     .image{
         width: 100%;
@@ -158,6 +169,7 @@ main {
         height: 500px;
         gap: 16px;
         overflow-y: scroll;
+        margin-top: 0px;
     }
 }
 
