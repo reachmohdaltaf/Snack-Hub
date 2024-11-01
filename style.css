@@ -57,17 +57,19 @@ nav{
 .content {
     display: flex;
     justify-content: center;
+    background: url(./1.png);
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     min-height: 20vh;
-    padding: 20px;
+    padding: 50px;
     overflow-x: hidden;
     width: 90%;
-    box-shadow: inset 0px 0px 10px;
-}
+    box-shadow: inset 0px 0px 1px;
+} 
 .content::-webkit-scrollbar {
     display: none;
+    z-index: 10;
   }
 
 
@@ -86,7 +88,10 @@ nav{
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+    z-index: 1;
 }
+
 
 .image{
     width: 100%;
